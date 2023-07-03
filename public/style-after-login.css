@@ -1,0 +1,645 @@
+nav {
+    z-index: 2;
+}
+
+.icons {
+    margin-top: 8px;
+}
+
+
+/* css for cards */
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+
+:root {
+    --color: #3c3163;
+    --transition-time: 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* font-family: 'Open Sans'; */
+    /* background: red; */
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background: #F5F5F5;
+}
+
+a {
+    color: inherit;
+}
+
+.big-heading {
+    font-weight: 700;
+}
+
+.button {
+    float: right;
+    padding-right: 20px;
+}
+
+
+.footer2 {
+    background: #0C0C0C;
+}
+
+.footer1 a {
+    color: black;
+}
+
+/* .footer2 background{
+    background: #395EE3;
+    opacity: 0.2;
+    filter: blur(147px);
+  } */
+.choose-image {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image {
+    margin: 0%;
+}
+
+.icon-section {
+    background: white;
+    /* height: 300px; */
+}
+
+.blue {
+    color: #395EE3;
+}
+
+.work-section {
+    /* padding: 100px 150px; */
+    background: black;
+    color: white;
+}
+
+
+.text-style {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bd-color {
+    border-left: 2.5px solid #395EE3;
+    /* border-left-width:  2px; */
+}
+
+.flow {
+    margin-top: 210px;
+}
+
+/* footer{
+    max-width: none;
+  } */
+p {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.search-box {
+    z-index: 0;
+}
+
+div.discover {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+/* flickity */
+.btn-class {
+    z-index: 1 !important;
+}
+
+.box {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 35px;
+    height: 35px;
+    left: 1265px;
+    margin-right: 10px;
+    top: 22px;
+    margin-top: -20px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Devider Grey */
+
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}
+
+.img {
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- dropdown message menu css--------------- */
+
+
+
+
+a {
+    color: #7f8db0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar_left .logo a {
+    font-family: 'Trade Winds';
+    font-size: 20px;
+}
+
+.navbar .navbar_right {
+    display: flex;
+}
+
+.navbar .navbar_right img {
+    width: 35px;
+}
+
+.navbar .navbar_right .icon_wrap {
+    cursor: pointer;
+}
+
+.navbar .navbar_right .notifications {
+    margin-right: 25px;
+}
+
+.navbar .navbar_right .notifications .icon_wrap {
+    font-size: 28px;
+}
+
+.navbar .navbar_right .profile,
+.navbar .navbar_right .notifications {
+    /* position: relative; */
+    position: absolute;
+}
+
+.navbar .profile .profile_dd,
+.notification_dd {
+    position: absolute;
+    top: 48px;
+    right: -15px;
+    user-select: none;
+    background: #fff;
+    border: 1px solid #c7d8e2;
+    width: 350px;
+    height: auto;
+    display: none;
+    border-radius: 6px;
+    /* box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.125),
+        -10px -10px 35px rgba(0, 0, 0, 0.125); */
+}
+
+.navbar .profile .profile_dd:before,
+.notification_dd:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.notification_dd li {
+    /* border-bottom: 1px solid #f1f2f4; */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.notification_dd li .notify_icon {
+    display: flex;
+}
+
+
+/* .notification_dd li .notify_icon .icon {
+display: inline-block;
+background: url('https://i.imgur.com/MVJNkqW.png') no-repeat 0 0;
+width: 40px;
+height: 42px;
+} */
+
+.notification_dd li.baskin_robbins .notify_icon .icon {
+    background-position: 0 -43px;
+}
+
+.notification_dd li.mcd .notify_icon .icon {
+    background-position: 0 -86px;
+}
+
+.notification_dd li.pizzahut .notify_icon .icon {
+    background-position: 0 -129px;
+}
+
+.notification_dd li.kfc .notify_icon .icon {
+    background-position: 0 -178px;
+    list-style: none;
+}
+
+.notification_dd li .notify_data {
+    margin: 0 15px;
+    width: 185px;
+    list-style: none;
+
+}
+
+.notification_dd li .notify_data .img {}
+
+.notification_dd li .notify_data .title {
+    color: #000;
+    font-weight: 600;
+}
+
+.notification_dd li .notify_data .sub_title {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.notification_dd li .notify_status p {
+    font-size: 12px;
+}
+
+.notification_dd li.success .notify_status p {
+    color: #000000;
+}
+
+.notification_dd li.failed .notify_status p {
+    color: #000000;
+}
+
+.notification_dd li.show_all {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.notification_dd li.show_all p {
+    font-weight: 700;
+    color: #3b80f9;
+    cursor: pointer;
+}
+
+.notification_dd li.show_all p:hover {
+    text-decoration: underline;
+}
+
+.navbar .navbar_right .profile .icon_wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: -33px;
+}
+
+.navbar .navbar_right .profile .name {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar .navbar_right .icon_wrap:hover,
+.navbar .navbar_right .profile.active .icon_wrap,
+.navbar .navbar_right .notifications.active .icon_wrap {
+    color: #3b80f9;
+}
+
+.navbar .profile .profile_dd {
+    width: 225px;
+}
+
+.navbar .profile .profile_dd:before {
+    rigth: 10px;
+}
+
+.navbar .profile .profile_dd ul li {
+    border-bottom: 1px solid #f1f2f4;
+}
+
+.navbar .profile .profile_dd ul li a {
+    display: block;
+    padding: 15px 35px;
+    position: relative;
+}
+
+.navbar .profile .profile_dd ul li a .picon {
+    display: inline-block;
+    width: 30px;
+}
+
+.navbar .profile .profile_dd ul li a:hover {
+    color: #3b80f9;
+    background: #f0f5ff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.navbar .profile .profile_dd ul li.profile_li a:hover {
+    background: transparent;
+    cursor: default;
+    color: #7f8db0;
+}
+
+.navbar .profile .profile_dd ul li .btn {
+    height: 32px;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    background: #3b80f9;
+    width: 125px;
+    margin: 5px auto 15px;
+}
+
+.navbar .profile .profile_dd ul li .btn:hover {
+    background: #6593e4;
+}
+
+.navbar .profile.active .profile_dd,
+.navbar .notifications.active .notification_dd {
+    display: block;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease;
+    display: none;
+}
+
+.popup .shadow {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.popup .inner_popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+.popup .notification_dd {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    height: 357px;
+    overflow: auto;
+}
+
+.popup .notification_dd:before {
+    display: none;
+}
+
+.popup .notification_dd li.title {
+    font-weight: 700;
+    color: #3b80f9;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.popup .notification_dd li.title .close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup .notification_dd li.title .close:hover {
+    opacity: 0.5;
+}
+
+/* user profile */
+.profile-part p {
+    color: gray;
+}
+
+.profile-part2 {
+    margin-top: -30px;
+}
+
+.btn-class1 {
+    width: 380px;
+    color: white;
+    border: 1px solid blue;
+    background-color: black;
+    margin-top: 60px;
+    z-index: 1 !important;
+}
+
+.btn-class {
+    margin-top: 60px;
+}
+
+.km {
+    text-align: right;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+@media(min-width:292px) and (max-width:1199px) {
+    .btn-class1 {
+        width: 170px;
+    }
+
+    .navbar-nav {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* .btn-class { */
+    /* margin-top: 60px; */
+    /* } */
+
+    .km {
+        width: 150px;
+    }
+}
+
+/* @media(max-width: 301px) {
+    .btn-class1 {
+        width: 120px;
+    }
+} */
+
+.km h6 {
+    color: grey;
+}
+
+.km span {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .icon_wrap {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fa-bell {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .profile {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* -------Profile Dropdown---------- */
+
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h5 {
+    font-weight: 500;
+    color: black;
+}
+
+.user-info h5 span {
+    font-size: 12px;
+    color: #6c6666;
+}
+
+
+.user-info img {
+    width: 280px;
+    margin-right: 15px;
+}
+
+.spa {
+    margin-left: 80px;
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+
+.sam {
+    width: 160px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------   Scroll view -----------------*/
+
+
+
+
+
+.scroll-div {
+    height: 350px;
+    overflow-y: scroll;
+}

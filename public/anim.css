@@ -1,0 +1,504 @@
+/* animation conatinaer css */
+
+.container_animtop {
+  width: 100%;
+  height: 686px;
+  background-color: #0c0c0c;
+}
+
+.anim_img {
+  position: relative;
+  top: -100px;
+}
+
+.boy {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  /* z-index: 9; */
+}
+
+.pinkbox {
+  position: relative;
+  top: 160px;
+  left: 26px;
+  z-index: 1;
+}
+
+.simple_girl {
+  position: relative;
+  top: 250px;
+  left: 2px;
+}
+
+.curly_girl {
+  position: relative;
+  top: 60px;
+  left: 8px;
+}
+
+.top {
+  left: 33px;
+  position: relative;
+  font-family: sora;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.legal {
+  position: relative;
+  font-family: sora;
+  font-weight: 700;
+  font-size: 55px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.talent {
+  position: relative;
+  font-family: sora;
+  font-weight: 700;
+  font-size: 55px;
+  font-style: normal;
+  color: #ffffff;
+  left: 400px;
+  top: -110px;
+
+}
+
+.on {
+  position: relative;
+  font-family: sora;
+  font-weight: 700;
+  font-size: 55px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.demand {
+  position: relative;
+  font-family: sora;
+  font-weight: 700;
+  font-size: 67px;
+  font-style: normal;
+  color: #ffffff;
+  left: 85px;
+  z-index: 1;
+}
+
+.text1 {
+  position: relative;
+  top: 320px;
+  left: -320px;
+  z-index: 12;
+}
+
+.text2 {
+  position: relative;
+  top: 100px;
+  left: 180px;
+  z-index: 12;
+}
+
+.singer {
+  position: relative;
+  top: 180px;
+  animation-name: singer;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+}
+
+.content {
+  position: relative;
+  top: 300px;
+  left: 40px;
+  animation-name: content;
+  animation-duration: 5s;
+}
+
+.artist {
+  position: relative;
+  top: -100px;
+  left: 50px;
+  animation-name: artist;
+  animation-duration: 5s;
+}
+
+.branding {
+  position: relative;
+  top: 200px;
+  animation-name: branding;
+  animation-duration: 5s;
+}
+
+
+@keyframes artist {
+
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes singer {
+
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 100px;
+  }
+
+  50% {
+    right: 100px;
+    top: 50px;
+  }
+
+  75% {
+    left: 60px;
+    top: 100px;
+  }
+
+  100% {
+    left: 60px;
+    top: 200px;
+  }
+}
+
+@keyframes content {
+
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+
+  50% {
+    left: 100px;
+    top: 200px;
+  }
+
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 100px;
+  }
+}
+
+@keyframes branding {
+
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 100px;
+    top: 200px;
+  }
+
+  50% {
+    left: 100px;
+    top: 100px;
+  }
+
+  75% {
+    left: 0px;
+    top: 300px;
+  }
+
+  100% {
+    left: 0px;
+    top: 70px;
+  }
+}
+
+
+
+
+/* media */
+
+
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  .container_animtop {
+    height: auto;
+  }
+
+  .anim_img {
+    top: 0;
+  }
+
+  .boy,
+  .pinkbox,
+  .simple_girl,
+  .curly_girl,
+  .artist,
+  .branding {
+    top: 0;
+    left: 0;
+  }
+
+  .top,
+  .legal,
+  .talent,
+  .on,
+  .demand {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text1,
+  .text2 {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .singer,
+  .content {
+    position: static;
+    margin-top: 20px;
+    animation: none;
+  }
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container_animtop {
+    height: auto;
+  }
+
+  .anim_img {
+    top: 0;
+  }
+
+  .boy,
+  .pinkbox,
+  .simple_girl,
+  .curly_girl,
+  .artist,
+  .branding {
+    top: 0;
+    left: 0;
+  }
+
+  .top,
+  .legal,
+  .talent,
+  .on,
+  .demand {
+    font-size: 40px;
+  }
+
+  .text1,
+  .text2 {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .singer,
+  .content {
+    position: static;
+    margin-top: 20px;
+    animation: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  .container_animtop {
+    height: auto;
+  }
+
+  .anim_img {
+    top: 0;
+  }
+
+  .boy,
+  .simple_girl,
+  .artist,
+  .branding {
+    top: 0;
+    left: 0;
+  }
+
+  .top,
+  .legal,
+  .talent,
+  .on,
+  .demand {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text1,
+  .text2 {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .singer,
+  .curly_girl,
+  .pinkbox {
+    display: none;
+  }
+}
+
+
+
+/* card css slider */
+
+
+.slide-container {
+  display: flex;
+  width: calc(250px*18);
+  animation: scroll 20s linear infinte;
+
+}
+
+@keyframes scroll {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+
+}
+
+.slide-image {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+
+}
+
+/* img{
+    width:100%;
+    transition: transform 1s;
+  
+  }
+  
+  img:hover{
+    transform:translateZ(20px);
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  /* background: white; */
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  /* background: linear-gradient(to left, rgba(255, 255, 255, 0), white); */
+}
+
+.logos:after {
+  right: 0;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0), white); */
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+
+  height: 180px;
+  margin: 0 30px;
+
+}
