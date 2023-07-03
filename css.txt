@@ -1,0 +1,42 @@
+Changes in CSS FILES 
+ 1. loginInPage.css
+ .container {
+	   max-width: 100%;
+	   }
+	   
+	   in container css line number 15 replace width:100% to max-width:100%
+	   
+2. logInPage.css
+	
+	.field button {
+    background-color: #9B9A9A;
+	color:white;
+}
+
+line number 68
+
+3. Line number 34 Replace in logInPage
+
+.login {
+    width: 363px;
+    margin-left: -63px;
+	  height: 378px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 6px;
+    background: white;
+}
+
+4. Add new css for 
+
+.register {
+    width: 363px;
+    margin-left: -63px;
+    height: 449px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 6px;
+    background: white;
+}
+
+and replace register.js where replace "form login" to "form register" class
